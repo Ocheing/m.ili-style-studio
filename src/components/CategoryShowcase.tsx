@@ -5,22 +5,22 @@ import { ArrowRight } from 'lucide-react';
 
 const categories = [
   {
-    name: 'Formal Wear',
-    description: 'Elevate your professional wardrobe',
-    image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&h=600&fit=crop',
-    link: '/formal-wear',
+    name: 'Two Piece',
+    description: 'Coordinated elegance for every occasion',
+    image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&h=600&fit=crop',
+    link: '/two-piece',
   },
   {
-    name: 'Custom Suits',
-    description: 'Tailored to perfection',
-    image: 'https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?w=800&h=600&fit=crop',
-    link: '/custom-suits',
+    name: 'Sets',
+    description: 'Perfectly matched comfort and style',
+    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&h=600&fit=crop',
+    link: '/sets',
   },
   {
-    name: 'Casual Collection',
-    description: 'Effortless everyday style',
-    image: 'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=800&h=600&fit=crop',
-    link: '/casual',
+    name: 'Dresses',
+    description: 'Timeless pieces for memorable moments',
+    image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&h=600&fit=crop',
+    link: '/dresses',
   },
 ];
 
@@ -39,7 +39,7 @@ const CategoryShowcase = () => {
             Shop by Category
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Explore our curated collections designed for the modern gentleman
+            Explore our curated collections designed for the modern woman
           </p>
         </motion.div>
 

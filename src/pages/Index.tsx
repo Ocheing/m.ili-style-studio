@@ -5,14 +5,13 @@ import Footer from '@/components/Footer';
 import HeroCarousel from '@/components/HeroCarousel';
 import FeaturedProducts from '@/components/FeaturedProducts';
 import CategoryShowcase from '@/components/CategoryShowcase';
-import PromoBar from '@/components/PromoBar';
 
 const Index = () => {
   return (
     <>
       <Helmet>
-        <title>BY M.ILI | Premium Men's Fashion & Tailored Clothing</title>
-        <meta name="description" content="Discover timeless elegance with BY M.ILI. Shop premium men's suits, formal wear, and casual collections. Experience the art of refined fashion." />
+        <title>BY M.ILI | Premium Women's Fashion & Clothing</title>
+        <meta name="description" content="Discover timeless elegance with BY M.ILI. Shop premium two-piece sets, dresses, and curated collections. Experience the art of refined fashion from Kenya to the world." />
       </Helmet>
       
       <div className="min-h-screen flex flex-col">
@@ -21,9 +20,6 @@ const Index = () => {
         <main className="flex-1">
           {/* Hero Carousel */}
           <HeroCarousel />
-          
-          {/* Promo Features */}
-          <PromoBar />
           
           {/* New Arrivals */}
           <FeaturedProducts
@@ -49,7 +45,7 @@ const Index = () => {
           {/* All Products */}
           <FeaturedProducts
             title="Complete Collection"
-            subtitle="Explore our full range of premium menswear"
+            subtitle="Explore our full range of premium fashion"
             filter="all"
             limit={8}
             viewAllLink="/shop"
