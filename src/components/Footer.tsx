@@ -23,9 +23,9 @@ const Footer = () => {
     shop: [
       { name: 'New Arrivals', href: '/new-arrivals' },
       { name: 'Best Sellers', href: '/best-sellers' },
-      { name: 'Custom Suits', href: '/custom-suits' },
-      { name: 'Formal Wear', href: '/formal-wear' },
-      { name: 'Casual Collection', href: '/casual' },
+      { name: 'Two Piece', href: '/two-piece' },
+      { name: 'Sets', href: '/sets' },
+      { name: 'Dresses', href: '/dresses' },
     ],
   };
 
@@ -69,11 +69,11 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-3 text-muted-foreground">
                 <MapPin className="w-4 h-4 text-gold" />
-                <span>123 Fashion Avenue, New York, NY 10001</span>
+                <span>Nairobi, Kenya</span>
               </div>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Phone className="w-4 h-4 text-gold" />
-                <span>+1 (555) 123-4567</span>
+                <span>+254 700 123 456</span>
               </div>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Mail className="w-4 h-4 text-gold" />
