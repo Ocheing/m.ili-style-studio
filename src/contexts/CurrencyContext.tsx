@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
 
-export type Currency = 'KSH' | 'USD' | 'EUR' | 'GBP' | 'NGN' | 'ZAR' | 'TZS' | 'UGX' | 'RWF' | 'AED' | 'CNY' | 'JPY' | 'INR' | 'AUD' | 'CAD' | 'CHF' | 'BRL' | 'MXN';
+export type Currency = 'KSH' | 'USD' | 'EUR' | 'GBP' | 'NGN' | 'ZAR' | 'TZS' | 'UGX' | 'RWF' | 'AED' | 'CNY' | 'JPY' | 'INR' | 'AUD' | 'CAD' | 'CHF' | 'BRL' | 'MXN' | 'SEK' | 'NOK';
 export type Language = 'EN' | 'SW' | 'FR' | 'ES' | 'DE' | 'IT' | 'PT' | 'AR' | 'ZH' | 'JA' | 'HI' | 'RU' | 'KO' | 'NL' | 'PL' | 'TR';
 
 export const languageNames: Record<Language, string> = {
@@ -41,6 +41,8 @@ export const currencyNames: Record<Currency, string> = {
   CHF: 'Swiss Franc',
   BRL: 'Brazilian Real',
   MXN: 'Mexican Peso',
+  SEK: 'Swedish Krona',
+  NOK: 'Norwegian Krone',
 };
 
 const currencySymbols: Record<Currency, string> = {
@@ -62,6 +64,8 @@ const currencySymbols: Record<Currency, string> = {
   CHF: 'CHF',
   BRL: 'R$',
   MXN: 'MX$',
+  SEK: 'kr',
+  NOK: 'kr',
 };
 
 // Exchange rates relative to KSH (base currency)
@@ -84,6 +88,8 @@ const exchangeRates: Record<Currency, number> = {
   CHF: 0.0068,
   BRL: 0.037,
   MXN: 0.13,
+  SEK: 0.079,
+  NOK: 0.081,
 };
 
 interface CurrencyContextType {

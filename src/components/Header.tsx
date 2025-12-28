@@ -24,22 +24,20 @@ const Header = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   const navLinks = [
+    { name: 'Shop', href: '/shop' },
     { name: 'New Arrivals', href: '/new-arrivals' },
     { name: 'Best Sellers', href: '/best-sellers' },
-    { name: 'Custom Suits', href: '/custom-suits' },
-    { name: 'Formal Wear', href: '/formal-wear' },
-    { name: 'Casual', href: '/casual' },
   ];
 
-  const currencies: Currency[] = ['USD', 'EUR', 'GBP', 'NGN'];
-  const languages: Language[] = ['EN', 'FR', 'ES'];
+  const currencies: Currency[] = ['KSH', 'USD', 'EUR', 'GBP', 'NGN', 'ZAR', 'TZS', 'UGX', 'AED', 'CAD', 'AUD', 'JPY', 'CNY', 'INR', 'BRL', 'CHF', 'SEK', 'NOK'];
+  const languages: Language[] = ['EN', 'SW', 'FR', 'ES', 'DE', 'IT', 'PT', 'AR', 'ZH', 'JA', 'KO', 'HI', 'RU', 'NL', 'TR', 'PL'];
 
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
       {/* Top Bar */}
       <div className="hidden lg:block bg-secondary/50">
         <div className="container mx-auto px-4 py-2 flex justify-between items-center text-xs">
-          <p className="text-muted-foreground">Free shipping on orders over $200</p>
+          <p className="text-muted-foreground">Premium Fashion from Kenya to the World</p>
           <div className="flex items-center gap-4">
             {/* Language Selector */}
             <DropdownMenu>
