@@ -12,6 +12,9 @@ import Index from "./pages/Index";
 import Auth from "./pages/Auth";
 import Cart from "./pages/Cart";
 import Wishlist from "./pages/Wishlist";
+import Shop from "./pages/Shop";
+import NewArrivals from "./pages/NewArrivals";
+import BestSellers from "./pages/BestSellers";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Careers from "./pages/Careers";
@@ -45,6 +48,9 @@ const App = () => (
                     <Route path="/auth" element={<Auth />} />
                     <Route path="/cart" element={<Cart />} />
                     <Route path="/wishlist" element={<Wishlist />} />
+                    <Route path="/shop" element={<Shop />} />
+                    <Route path="/new-arrivals" element={<NewArrivals />} />
+                    <Route path="/best-sellers" element={<BestSellers />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/careers" element={<Careers />} />
