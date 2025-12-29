@@ -64,7 +64,7 @@ const Wishlist = () => {
   return (
     <>
       <Helmet>
-        <title>Wishlist ({items.length}) | BY M.ILI</title>
+        <title>{`Wishlist (${items.length}) | BY M.ILI`}</title>
       </Helmet>
       <div className="min-h-screen flex flex-col">
         <Header />
